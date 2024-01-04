@@ -1,0 +1,24 @@
+public/
+│   index.html
+│
+├───css/
+│       styles.css
+│
+├───js/
+│	consultarPlaca.js
+│ 	index.js		
+│ 	rotas.js
+│       script.js
+│ 	server.js
+│ 
+└───imagens/
+        ico_instagram.png
+        ico_linkedin.png
+        ico_rastreamento.png
+        ico_site.png
+        ico_whatsapp.png
+        ico_youtube.png
+	logocw.jpg
+	logocw.png
+	logocw-sem-fundo.png
+	placas_fundo.jpg

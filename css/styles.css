@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+	background-image: url('imagens/placas_fundo.jpg');
+    background-repeat: repeat;
+    opacity: 0.9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: red; /* Alteração aqui: fundo vermelho */
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .social-icons {
+    display: flex; /* Alteração aqui: flex container */
+    align-items: center; /* Alteração aqui: centraliza verticalmente os ícones */
+}
+
+header .social-icons a {
+    margin-left: 10px;
+    color: white; /* Alteração aqui: ícones brancos */
+    text-decoration: none;
+}
+
+header .social-icons a:hover {
+    color: yellow; /* Alteração aqui: ícones amarelos ao passar o mouse */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+a:visited {
+    color: #C4A487;
+}
+
+a:hover {
+    color: #8B735B;
+    text-decoration: none;
+}
+
+.social-icons {
+    background-color: red; /* Alteração aqui: fundo vermelho */
+    padding: 10px;
+    margin-top: -50px;
+	margin-left: 1100px;
+	margin-right: 20px;
+	font-size: 24px;
+}
+
+.footer {
+    margin-top: 80px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: red; /* Alteração aqui: fundo vermelho */
+    padding: 20px;
+}
+
+.footer a:visited {
+    color: gray; /* Alteração aqui: link visitado cinza */
+}
+
+#consultaBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#consultaBtn:hover {
+    background-color: darkred;
+}
+
+#placaInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+	text-transform: uppercase;
+}
