@@ -1,40 +1,182 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de Placa - CarrierWeb</title>
-    <link rel="icon" href="./imagens/ico_rastreamento.png" type="image/x-icon">
-	<link rel="stylesheet" href="./css/styles.css">
+
+    <title>Consulta de Placa - CarrierWeb Brasil</title>
+
+    <!-- Falta o ícone para a guia da página -->
+    <link rel="icon" type="image/png" href="./imagens/logo_carrierweb.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/botao_saiba_mais.css">
+    <link rel="stylesheet" type="text/css" href="./css/botao_consultar_placa.css">
+    <link rel="stylesheet" type="text/css" href="./css/botao_subir.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/1288cfac2a.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/botao_subir.js"></script>
+    
 </head>
+
 <body>
+
+    <!-- Início: header -->
+
     <header>
-        <div class="outer-container">
-			<div class="logo">
-				<img src="imagens/logocw-sem-fundo.png" alt="Logo CarrierWeb">
-			</div>
-			<div class="social-icons">
-				<a href="https://www.carrierweb.com.br/"><i class="fas fa-globe"></i></a>
-				<a href="https://www.instagram.com/carrierwebbrasil/"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.youtube.com/@CarrierwebBrasil"><i class="fab fa-youtube"></i></a>
-				<a href="https://www.linkedin.com/company/carrierweb-br"><i class="fab fa-linkedin"></i></a>
-				<a href="https://portalbr1.carrierweb.com/website/login/index.php"><i class="fas fa-map-marker-alt"></i></a>
-				<a href="https://wa.me/5537991724835"><i class="fab fa-whatsapp"></i></a>
-			</div>
-		</div>
+
+        <div class="header-div-barra"></div>
+
+        <div class="header-div-01">
+
+            <div class="header-logo-responsivo">
+
+                <a href="https://www.carrierweb.com.br/" target="_blank">
+                    <img src="./imagens/logo_carrierweb_300x30.png" alt="Logo CarrierWeb">
+                </a>
+
+            </div>
+
+            <div class="div-do-meio">
+            </div>
+
+            <div class="header-icones">
+
+                <a href="https://www.carrierweb.com.br/" target="_blank">
+                    <i class="fas fa-globe"></i>
+                </a>
+				<a href="https://www.instagram.com/carrierwebbrasil/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+				<a href="https://www.youtube.com/@CarrierwebBrasil" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+				<a href="https://www.linkedin.com/company/carrierweb-br" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+				<a href="https://portalbr1.carrierweb.com/website/login/index.php" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+				<a href="https://wa.me/5521975287327" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                
+            </div>
+
+        </div>
+
     </header>
-    <div class="container">
-        <h1>Consulta de Placa</h1>
-        <input type="text" id="placaInput" placeholder="Digite a placa">
-        <button id="consultaBtn">Consultar</button>
-        <div id="resultado"></div>
-    </div>
-    <script src="js/script.js"></script>
-	
-	<div class="footer">
-        Desenvolvido por <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>
-        <br>Todos os direitos reservados CarrierWeb 2024
-    </div>
+
+    <!-- Fim: header -->
+
+    <!-- Início: main -->
+
+    <main>
+
+        <!-- Início: main-div-01 -->
+
+        <div class="main-div-01">
+
+            <!-- Início: main-div-01-esquerda -->
+
+            <div class="main-div-01-esquerda">
+
+                <div class="main-div-01-esquerda-01">
+                    <span>Soluções de Gestão<br>
+                    CarrierWeb Brasil</span>
+                </div>
+
+                <div class="main-div-01-esquerda-02">
+                    <p>Solução completa de gestão de frota que pode ser integrada e customizada para atender as necessidades do seu negócio. Disponibilizamos uma plataforma de software na nuvem que permite a tomada de decisões em tempo real baseadas na gestão por exceção.</p>
+                </div>
+
+                <div class="main-div-01-esquerda-03">
+                    <a href="https://www.carrierweb.com.br/" target="_blank">
+                        <button class="botao_saiba_mais">Saiba Mais</button>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Fim: main-div-01-esquerda -->
+
+            <!-- Início: main-div-01-direita -->
+
+            <div class="main-div-01-direita">
+
+                <div class="main-div-01-direita-01">
+
+                    <div class="div-titulo">
+                        Consulta de Placa
+                    </div>
+
+                    <div class="div-label-input">
+                        <label for="placa">Placa</label>
+                        <input id="placa" type="text" name="placa" required>
+                    </div>
+
+                    <div class="div-button">
+                        <button type="submit" class="botao_consultar_placa">Consultar</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Fim: main-div-01-direita -->
+
+        </div>
+
+        <!-- Fim: main-div-01 -->
+
+        <!-- Início: main-div-02 -->
+
+        <div class="main-div-02">
+            API de Notícias Aqui!
+        </div>
+
+        <!-- Fim: main-div-02 -->
+       
+    </main>
+
+    <!-- Fim: main -->
+
+    <!-- Início: footer -->
+
+    <footer>
+
+        <div class="footer-div-barra"></div>
+
+        <div class="footer-div-01">
+            Desenvolvido por: <!--<a href="https://salomrodr.github.io/senai-curso-programador-front-end-projeto-integrador-portfolio/" target="_blank">Salomão Rodrigues</a> (Programador Front-End) & --><a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a> (Programador Back-End).
+        </div>
+
+        <div class="footer-div-02">
+            Copyright © 2024 <a href="https://www.carrierweb.com.br/" target="_blank">CarrierWeb Brasil</a> | All Rights Reserved
+        </div>
+
+    </footer>
+
+    <!-- Fim: footer -->
+
+    <!-- Início: Botão Subir -->
+
+    <span id="scrollTopBtn" onclick="scrollToTop()">
+        <i class="fa-solid fa-angle-up"></i>
+    </span>
+
+    <!-- Fim: Botão Subir -->
+    
 </body>
+
 </html>

@@ -1,0 +1,18 @@
+.botao_consultar_placa {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px solid #ffffff;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    color: #ffffff;
+    transition: box-shadow 0.5s;
+}
+    .botao_consultar_placa:hover {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+    }

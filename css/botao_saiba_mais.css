@@ -1,0 +1,18 @@
+.botao_saiba_mais {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px solid #ffffff;
+    border-radius: 15px;
+    color: #c84448;
+    background-color: #ffffff;
+    transition: box-shadow 0.5s;
+}
+    .botao_saiba_mais:hover {
+        box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+        color: #dc0309;
+    } 
