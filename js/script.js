@@ -1,4 +1,4 @@
-document.getElementById('consultaBtn').addEventListener('click', function() {
+document.getElementById('botao_consultar_placa').addEventListener('click', function() {
     var placa = document.getElementById('placaInput').value.toUpperCase();
 
     if (validarPlaca(placa)) {
